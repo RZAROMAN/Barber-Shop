@@ -23,8 +23,6 @@ body {
 	width: 940px;
 	margin: 0 auto;
 	padding: 0 10px;
-
-	min-height: 70px;
 }
 
 .main-header {
@@ -32,7 +30,6 @@ body {
 }
 
 .main-navigation {
-	display: inline-block;
 	float: left;
 	width: 780px;
 	min-height: 70px;
@@ -116,80 +113,61 @@ footer {
 }
 
 /*Цена*/
-.breadcrumbs {
-	width: 540px;
-	height: 62px;
+.price-header {
+    margin-bottom: 55px;
+}
+
+.price-navigation {
 	float: left;
-	margin-bottom: 72px;
-	font-family: PT Sans Narrow;
+	width: 780px;
+	min-height: 70px;
+}
+
+.price-title {
+	width: 160px;
+	min-height: 80px;
+	margin-bottom: 55px;
+}
+
+.price-content-headline2 {
+	min-height: 40px;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 70px;
 }
 
 .price-content {
-	padding: 50px 80px;
-	margin-bottom: 35px;
-}
-
-.price-headline {
-	width: 620px;
-	font-size: 48px;
-	margin-right: auto;
-	margin-left: auto;
-	margin-bottom: 72px;
-	font-family:"Rage Italic";
+	margin-bottom: 55px;
 }
 
 .price-content-left {
-	width: 380px;
+	width: 400px;
+	min-height: 220px;
 	float: left;
-	margin-bottom: 72px;
-	min-height: 330px;
 }
 
 .price-content-right {
-	width: 460px;
+	width: 480px;
+	min-height: 220px;
 	float: right;
-	margin-bottom: 72px;
-	min-height: 330px;
-}
-
-.price-content-description {
-	svertical-align: bottom;
 }
 
 table {
+	width: 460px;
+	min-height: 120px;
 	border-collapse: collapse;
 }
 
 td {
 	border: 1px solid black;
-	width: 195px;
-	height: 30px;
+    padding: 10px 20px;
 }
 
-tr {
-	text-align: center;
+.2-column {
+	text-align: right;
 }
 
-.2st-column {
-	text-align: left;
-}
-
-.left-column {
-	float: left;
-	width: 220px;
-	min-height: 330px;
-	margin-right: 5px;
-}
-
-.right-column {
-	float: right;
-}
-
-.breadcrumbs {
-	float: left;
-	margin-bottom: 100px;
-}
-
+/*Каталог*/
 .content-row {
 	float: left;
 }
